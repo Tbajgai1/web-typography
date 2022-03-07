@@ -1,0 +1,409 @@
+/** user specific styles here **/
+
+body {
+    /* background: url('../img/eragon-wallpaper.jpeg') center / cover; */
+    font-size: 100%;
+    line-height: 1.5;
+    background-image: linear-gradient(#0ff 1px, transparent 1px);
+    background-size: auto 24px;
+}
+
+h2 {
+    font-family: 'Trade Winds', cursive;
+    font-size: 4rem;
+    line-height: 4.5rem;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+h3 {
+    font-family: 'Syne Mono', monospace;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    margin-top: 2rem;
+}
+
+body p {
+    font-family: 'Grechen Fuemen', cursive;
+    letter-spacing: 0.1ch;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    color: rgb(122, 18, 35);
+    margin-bottom: 3rem;
+}
+
+.container {
+    background-color: rgba(203, 175, 126, 0.8);
+    width: 75rem;
+    margin: auto;
+    padding: 0 3rem;
+}
+
+
+.logo-title {
+    width: 45rem;
+    margin: auto;
+}
+
+.introduction h2 {
+    font-size: 4rem;
+    line-height: 4.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.text-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-wrap-img {
+   width: 45%;
+}
+
+.text-wrap-par {
+    background: url('../img/medieval-frame-img-09.png') no-repeat;
+    width: 60%;
+    height: 50rem;
+    padding: 5rem 2.5rem 0 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.text-wrap-par .p-1 {
+    font-size: 1rem;
+    line-height: 3rem;
+    width: 40ch;
+}
+
+.intro-paragraphs {
+    background: url('/img/medieval-frame-3.png') no-repeat;
+    padding: 15rem 6rem 0 9rem;
+    width: 60rem;
+    height: 75rem;
+    margin: auto;
+}
+
+.introduction .p-2,
+.introduction .p-3 {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    color: rgb(204, 71, 71);
+    text-shadow: 2px 2px rgb(207, 203, 200);
+}
+
+.background {
+    position: relative;
+    margin: auto;
+    width: 100%;
+}
+
+.background h2 {
+    margin: 6rem 0 ;
+    font-size: 5rem;
+
+}
+
+.background .sword {
+    position: absolute;
+    top: 3rem;
+    left: 20rem;
+    width: 30rem;
+}
+
+.a-boy {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+
+.a-boy .cover-img {
+    width: 50%;
+    height: 37rem;
+}
+
+.a-boy .p-4 {
+    width: 45%;
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 0;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.a-boy .p-5 {
+    margin-top: 3rem;
+}
+
+.background-txt {
+    background: url('../img/medieval-frame-5-img.png') no-repeat;
+    margin: auto;
+    width: 60rem;
+    height: 75rem;
+    padding: 7rem 8rem 0 9.5rem;
+}
+
+.background-txt > p {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: #ffffff;
+    text-shadow: 2px 2px rgb(150, 90, 31);
+}
+
+.background .p-9 {
+    margin-top: 2rem;
+}
+
+.background-txt-1 {
+    background: url('../img/medieval-frame-2.png') no-repeat;
+    width: 60rem;
+    height: 83.75rem;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 11rem 15rem 9rem;
+}
+
+.background-txt-1 > p {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: rgb(0, 0, 0);
+}
+
+.main-characters {
+    margin-top: 5rem;
+    position: relative;
+}
+
+.main-characters h3:nth-child(1) {
+    margin-top: 1rem;
+}
+
+.main-characters .sword-eragon {
+    position: absolute;
+    width: 50rem;
+    top: 1rem;
+    left: 16rem;
+}
+
+.eragon-bromsson {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 5rem;
+}
+
+.eragon-bromsson img {
+    height: 30rem;
+    width: 40%;
+    margin-right: 2rem;
+}
+
+.eragon-bromsson h3 {
+    margin-left: 5rem;
+    margin-top: 0;
+}
+
+.eragon-dragon {
+    background-color:rgba(203, 175, 126);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    padding: 0 2rem;
+}
+
+.saphira,
+.dragon-card {
+    margin-top: 5rem;
+    background-color:#b48150;
+    border-radius: 2rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    padding: 2rem;
+
+}
+
+.saphira h3 {
+    text-align: center;
+}
+
+.arya {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    position: relative;
+    background-color: rgba(146, 126, 100, 0.5);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+}
+
+.arya h3 {
+    text-align: center;
+}
+
+.arya img {
+    height: 40rem;
+    width: 60rem;
+    position: absolute;
+    z-index: -1;
+    margin: auto;
+
+}
+
+.murtagh {
+    background-color: rgba(221, 168, 88, 0.5);
+    border-radius: 2rem;
+    padding: 2rem;
+    margin-top: 3rem;
+    position: relative;
+    box-shadow: 0 8px 16px 0 rgba(80, 75, 75, 0.2);
+}
+
+.murtagh h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.murtagh img {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+.galbatorix {
+    background-color: rgb(190, 138, 69);
+    padding: 2rem;
+    box-shadow: 0 8px 16px 0 rgba(128, 37, 37, 0.2);
+    margin: 2rem 0;
+    border-radius: 2rem;
+}
+
+.galbatorix h3 {
+    text-align: center;
+}
+
+.nasuada {
+    margin: 5rem 0 0 0;
+    position: relative;
+}
+.nasuada-txt {
+    background: url('/img/medieval-frame-img.png') no-repeat;
+    width: 60rem;
+    height: 64rem;
+    margin: auto;
+    padding: 17rem 10rem 10rem 15rem;
+    position: absolute;
+    top: -1rem;
+    left: 2.5rem;
+}
+
+.nasuada h3 {
+    text-align: center;
+}
+
+.nasuada-txt p {
+    font-size: 1.5rem;
+}
+
+.roran {
+    margin-top: 55rem;
+    background-color: rgba(83, 131, 126, 0.5);
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 8px 16px 0 rgba(128, 37, 37, 0.2);
+    position: relative;
+}
+
+h3 {
+    text-align: center;
+}
+
+.roran img {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 16rem;
+    margin: auto;
+    height: 26.5rem;
+    width: 30rem;
+}
+
+.orik {
+    background-color: rgba(83, 131, 126, 0.5);
+    border-radius: 2rem;
+    box-shadow: 0 8px 16px 0 rgba(128, 37, 37, 0.2);
+    margin: 2rem;
+    padding: 2rem;
+    position: relative;
+}
+
+.orik img {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 16rem;
+    height: 30rem;
+}
+
+.dragons-intro {
+    margin: 6rem;
+    position: relative;
+    background-color: rgba(83, 131, 126, 0.5);
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 8px 16px 0 rgba(128, 37, 37, 0.2);
+}
+
+.dragons h2 {
+    margin-bottom: 2rem;
+}
+
+.dragons img {
+    position: absolute;
+    top: 6rem;
+    left: 14rem;
+    z-index: -1;
+}
+
+.adaptation {
+    margin-top: 5rem;
+}
+.film {
+    background: url('/img/medieval-frame-10.png') no-repeat;
+    height: 125rem;
+    width: 65rem;
+    margin-left: 4rem;
+    padding: 17rem 14rem 5rem 12rem;
+}
+.Video-game {
+    background: url('/img/medieval-frame-11.png') no-repeat;
+    height: 125rem;
+    width: 65rem;
+    margin-left: 4rem;
+    padding: 10rem 14rem 5rem 12rem;
+}
+
+.film p,
+.Video-game p {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+footer {
+    background-color: rgb(156, 187, 187);
+    width: 70rem;
+    margin: auto;
+    padding: 2rem;
+    color: #331b05;
+}
+
+small {
+    font-weight: bold;
+}
+.sources,
+.disclaimer{
+    text-align: center;
+}
+
+/* 12 14 16 18 21 24 32 36 48 60 72 */
+/* 24, 48, 72 96 */
